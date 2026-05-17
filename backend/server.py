@@ -11,7 +11,6 @@ from pydantic import BaseModel, Field, ConfigDict
 from typing import List, Optional, Literal
 from datetime import datetime, timezone, timedelta
 
-from emergentintegrations.llm.chat import LlmChat, UserMessage
 from reminders import start_scheduler, stop_scheduler, generate_reminders
 from personality import all_questions, score_answers, get_result, TYPES
 
