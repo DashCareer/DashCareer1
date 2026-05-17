@@ -14,7 +14,6 @@ from datetime import datetime, timezone, timedelta
 from reminders import start_scheduler, stop_scheduler, generate_reminders
 from personality import all_questions, score_answers, get_result, TYPES
 
-
 ROOT_DIR = Path(__file__).parent
 load_dotenv(ROOT_DIR / '.env')
 
